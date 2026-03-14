@@ -113,7 +113,7 @@ python main.py
 ### 已知限制
 
 - `scholarly` 依赖 Google Scholar，稳定性受网络和频率限制影响
-- Semantic Scholar 并非每篇 citing paper 都提供完整 `contexts`，尤其是部分需求登录的期刊论文
+- Semantic Scholar 并非每篇 citing paper 都提供完整 `contexts`（后续加入爬取的方式），尤其是部分需求登录的期刊论文
 - 当前版本主要面向命令行使用，尚未提供 Web UI 或标准化 API 服务
 - 不同平台对 OpenAI 兼容接口的细节支持程度不同，个别平台可能需要额外适配
 - AI存在幻觉，引用上下文可能存在错误，请仔细核对
